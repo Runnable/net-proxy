@@ -1,0 +1,28 @@
+{
+  "name": "net-proxy",
+  "version": "0.0.1",
+  "description": "A configurable tcp/udp proxy for node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -a code -v -c test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Runnable/net-proxy.git"
+  },
+  "keywords": [
+    "net",
+    "proxy",
+    "tcp",
+    "udp"
+  ],
+  "author": "Ryan Sandor Richards <ryan@runnable.com> (http://www.runnable.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Runnable/net-proxy/issues"
+  },
+  "homepage": "https://github.com/Runnable/net-proxy",
+  "dependencies": {
+    "express": "^4.13.1"
+  }
+}
